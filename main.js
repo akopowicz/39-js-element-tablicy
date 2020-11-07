@@ -1,7 +1,7 @@
 let array = [39, 25, 5, 36, 100];
 
-function number() {
-return array[0];
+function number(a) {
+return a[0];
 }
 
-console.log(number());
+console.log(number(array));
